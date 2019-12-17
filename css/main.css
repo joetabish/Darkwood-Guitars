@@ -24,11 +24,14 @@ nav{
 
 }
 
-ul{
-    position:relative;
+/* "#ul" is used here due to image spacing issues*/
+
+#ul{
+    position:inherit;
     list-style: none;
-    top:25px;
-    left:135px;
+    top:  25px;
+    left: 135px;
+
 }
 
 li{
@@ -48,22 +51,6 @@ li{
     height:80px;
 }
 
-.dropdownContent{
-    display: none;
-    position:absolute;
-    top: 160px;
-    width:1700px;
-    height:330px;
-    background-color:black;
-    border-style: solid;
-    border-color: azure;
-    border-width: 5px;
-    border-radius: 5px;
-}
-nav ul li:hover .dropdownContent{
-    display:block;
-}
-
 .controls2{
     position:relative;
     display:block;
@@ -81,6 +68,26 @@ nav ul li:hover .dropdownContent{
     width:40px;
     height:40px;
 }
+
+.dropdownContent{
+    display: none;
+    position:relative;
+    left:-530px;
+    top: 100px;
+    width:1700px;
+    height:330px;
+    background-color:black;
+    border-style: solid;
+    border-color: azure;
+    border-width: 5px;
+    border-radius: 5px;
+}
+/* Dropdown animation.*/ 
+
+nav #ul li:hover .dropdownContent{
+    display:block;
+}
+
 #work{
     position:relative;
     top: 160px;
@@ -120,9 +127,10 @@ a{
 }
 
 /* Image animations*/
-#controls:hover{
+.controls:hover{
     -webkit-animation:turn ease-in-out 1s forwards;
     }
 @keyframes turn {
       0%{transform:rotate( 0deg);}
     100%{transform:rotate(45deg);}
+}
