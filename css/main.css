@@ -1,6 +1,8 @@
 html{
     background-image: url("../images/background.png");
     background-size: cover;
+    overflow: hidden;
+
 }
 #logo{
     position: relative;
@@ -12,6 +14,8 @@ html{
   
 nav{
     position: relative;
+    margin: auto;
+  
     top:35px;
     width:1700px;
     height:130px;
@@ -20,7 +24,7 @@ nav{
     border-width: 5px;
     border-radius: 5px;
     border-color: azure;
-    margin:auto;
+
 
 }
 
