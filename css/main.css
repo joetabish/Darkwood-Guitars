@@ -6,18 +6,17 @@ html{
 }
 #logo{
     position: relative;
-    top:30px;
-    left:260px;
-    width:1400px;
-    height:170px;
+    top:50px;
+    left:480px;
+    width:960px;
+    height:120px;
 }
   
 nav{
     position: relative;
     margin: auto;
-  
-    top:35px;
-    width:1700px;
+    top:80px;
+    width:960px;
     height:130px;
     background-color:black;
     border-style: solid;
@@ -33,8 +32,7 @@ nav{
 #ul{
     position:inherit;
     list-style: none;
-    top:  25px;
-    left: 135px;
+    left: 120px;
 
 }
 
@@ -42,8 +40,9 @@ li{
     color:aliceblue;
     text-align:center;
     float:left;
-    width:130px;
-    height:80px;
+    font-size: 12px;
+    width:82px;
+    height:82px;
 }
 
 
@@ -51,34 +50,36 @@ li{
     position:relative;
     display:block;
     margin:auto;
-    width:80px;
-    height:80px;
+    top:31px;
+    width:68px;
+    height:68px;
 }
 
 .controls2{
     position:relative;
     display:block;
-    margin:auto;
-    top:10px;
-    width:60px;
-    height:60px;
+    margin: auto;
+    top:45px;
+    width:40px;
+    height:40px;
 }
 
 .controls3{
     position:relative;
     display:block;
     margin:auto;
-    top:20px;
-    width:40px;
-    height:40px;
+    top:50px;
+    width:30px;
+    height:30px;
 }
 
 .dropdownContent{
     display: none;
     position:relative;
+    float:left;
     left:-530px;
     top: 100px;
-    width:1700px;
+    width:960px;
     height:330px;
     background-color:black;
     border-style: solid;
@@ -88,15 +89,17 @@ li{
 }
 /* Dropdown animation.*/ 
 
-nav #ul li:hover .dropdownContent{
+}
+nav #ul li:hover  #work{
     display:block;
 }
 
 #work{
+    display:block;
     position:relative;
     top: 160px;
-    width:1700px;
-    height:330px;
+    width:960px;
+    height:149px;
     background-color:black;
     border-style: solid;
     border-width: 5px;
@@ -108,9 +111,13 @@ nav #ul li:hover .dropdownContent{
 
 #videos{
     position:relative;
-    top:8px;
-    left:6px;
+    top:4px;
+    left:2px;
     
+}
+iframe{
+    position: relative;
+    left:101px;
 }
 
 #videos:hover{
